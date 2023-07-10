@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  padding: 80px;
+  background-color: rgb(77, 72, 72);
+  border-color: black;
+  border: 10px;
+}
+
+.breakLine {
+  width: 100%;
+  padding: 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(39, 40, 49, 0.942),
+    rgb(240, 155, 7),
+    rgba(20, 20, 21, 0.942)
+  );
+  width: 100%;
+}

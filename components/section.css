@@ -1,0 +1,47 @@
+.card {
+  background-color: rgb(159, 158, 158);
+  border: 5px solid;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-color: rgb(24, 144, 144);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card--bookmark {
+  cursor: grab;
+  position: absolute;
+  right: 30px;
+  top: -8px;
+  font-size: 48px;
+}
+.card--frage {
+  font-size: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card__answerButton {
+  cursor: pointer;
+  display: flex;
+  width: 50%;
+  font-size: 20px;
+  padding: 5px;
+  justify-content: space-around;
+}
+.card--ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card__ul--li {
+  display: flex;
+}
+.card__li--choiceBotton {
+  cursor: pointer;
+}

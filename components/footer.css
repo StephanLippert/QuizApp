@@ -1,0 +1,36 @@
+footer {
+  width: 100%;
+  border: 3px;
+  border-style: groove;
+  border-color: black;
+  background: linear-gradient(
+    90deg,
+    rgba(39, 40, 49, 0.942),
+    rgb(240, 155, 7),
+    rgba(20, 20, 21, 0.942)
+  );
+  display: flex;
+  position: fixed;
+  flex-wrap: wrap;
+  flex-direction: column;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.myButton {
+  font-size: 25px;
+  padding: 7px;
+  border: 20px;
+  border-color: #ca6054;
+}
+.myButton--quizApp {
+}
+.myButton--bookmark {
+}
+.myButton--profile {
+}

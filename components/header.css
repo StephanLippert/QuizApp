@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  border: 3px;
+  border-style: double;
+  border-color: black;
+  background: linear-gradient(
+    90deg,
+    rgba(39, 40, 49, 0.942),
+    rgb(240, 155, 7),
+    rgba(20, 20, 21, 0.942)
+  );
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.header__headline {
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+  text-shadow: 3px 3px 0 #ca6054;
+  position: relative;
+}
