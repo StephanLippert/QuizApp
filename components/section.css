@@ -6,7 +6,7 @@
   border-color: rgb(24, 144, 144);
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
