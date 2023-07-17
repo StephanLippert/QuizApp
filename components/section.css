@@ -37,10 +37,9 @@
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
 }
 .card__ul--li {
-  display: flex;
 }
 .card__li--choiceBotton {
   cursor: pointer;

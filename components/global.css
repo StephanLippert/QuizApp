@@ -7,7 +7,6 @@ body {
   padding: 80px;
   background-color: rgb(77, 72, 72);
   border-color: black;
-  border: 10px;
 }
 
 .breakLine {
@@ -17,7 +16,7 @@ body {
     90deg,
     rgba(39, 40, 49, 0.942),
     rgb(240, 155, 7),
-    rgba(20, 20, 21, 0.942)
+    rgba(39, 40, 49, 0.942)
   );
   width: 100%;
 }
