@@ -1,13 +1,13 @@
 footer {
   width: 100%;
-  border: 3px;
+  border: 0.3em;
   border-style: groove;
   border-color: black;
   background: linear-gradient(
     90deg,
     rgba(39, 40, 49, 0.942),
     rgb(240, 155, 7),
-    rgba(20, 20, 21, 0.942)
+    rgba(39, 40, 49, 0.942)
   );
   display: flex;
   position: fixed;
@@ -19,14 +19,9 @@ footer {
 }
 nav {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .myButton {
-  font-size: 25px;
-  padding: 7px;
-  border: 20px;
-  border-color: #ca6054;
 }
 .myButton--quizApp {
 }

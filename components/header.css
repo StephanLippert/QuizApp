@@ -1,12 +1,12 @@
 .header {
   width: 100%;
-  border: 3px;
-  border-style: double;
+  border: 0.3em;
+  border-style: outset;
   border-color: black;
   background: linear-gradient(
     90deg,
     rgba(39, 40, 49, 0.942),
-    rgb(240, 155, 7),
+    rgb(187, 120, 4),
     rgba(20, 20, 21, 0.942)
   );
   position: fixed;
@@ -14,10 +14,12 @@
   left: 0;
   z-index: 10;
 }
+.darkButton {
+  border-radius: 50%;
+  padding: 0.3em;
+}
 .header__headline {
-  display: flex;
-  justify-content: space-around;
-  font-size: 40px;
-  text-shadow: 3px 3px 0 #ca6054;
-  position: relative;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 2px 1px 0 #b93e32;
 }
