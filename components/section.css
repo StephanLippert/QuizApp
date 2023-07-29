@@ -6,8 +6,12 @@
   margin-bottom: 4.5em;
   border-color: rgb(24, 144, 144);
   display: flex;
+
   position: relative;
   flex-direction: column;
+
+  flex-direction: row;
+
   justify-content: center;
   align-items: center;
 }
