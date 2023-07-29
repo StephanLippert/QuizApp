@@ -4,20 +4,25 @@
   box-sizing: border-box;
 }
 body {
-  padding: 80px;
-  background-color: rgb(77, 72, 72);
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   border-color: black;
-  border: 10px;
+  background-color: white;
+  color: black;
 }
-
+.darkModeBody {
+  background-color: #131213;
+  color: white;
+}
 .breakLine {
   width: 100%;
-  padding: 2px;
+  padding: 0.3em;
   background: linear-gradient(
     90deg,
     rgba(39, 40, 49, 0.942),
     rgb(240, 155, 7),
-    rgba(20, 20, 21, 0.942)
+    rgba(39, 40, 49, 0.942)
   );
-  width: 100%;
 }

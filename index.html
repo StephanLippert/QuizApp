@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
     <title>Quiz App</title>
   </head>
-  <body>
+  <body data-js="body">
     <header class="header">
       <h1 class="header__headline">Quiz App</h1>
     </header>
-    <main>
+    <main data-js="htmlMain">
       <section class="card">
         <svg
           class="card--bookmark"
-          role="img"
+          role="button"
           aria-label="Bookmark"
           xmlns="/svg"
           height="1em"
@@ -39,7 +40,6 @@
             <button class="card__li--choiceBotton"># H1 bis H6</button>
           </li>
         </ul>
-        
       </section>
       <hr class="breakLine" />
       <section class="card">
@@ -78,45 +78,40 @@
     </main>
     <footer>
       <nav>
-        
-            <svg
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 512 512"
-            >
-              <path d="M379.063 148.114c0 89.948-99.942 83.84-99.942 146.026v.336c0 7.174-5.815 12.989-12.989 12.989h-54.53c-7.174 0-12.989-5.815-12.989-12.989v-3.668c0-96.055 87.727-89.947 87.727-134.921c0-19.433-14.436-31.093-38.311-31.093c-19.423 0-39.271 8.493-57.314 25.851c-4.624 4.448-11.854 4.729-16.907.776l-35.862-28.05c-6.044-4.727-6.745-13.685-1.402-19.193c29.94-30.865 68.846-49.343 120.369-49.343c81.618.001 122.15 43.864 122.15 93.279zm-88.838 260.403c0 27.762-22.209 50.526-50.525 50.526c-27.762 0-50.526-22.764-50.526-50.526c0-27.761 22.764-50.525 50.526-50.525c28.317 0 50.525 22.764 50.525 50.525z"></svg>
-        </button>
-        
-          <a class="myButton--bookmark" href="bookmark.html"
-            ><svg
-              role="img"
-              aria-label="Bookmark Icon"
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M5 21V5q0-.825.588-1.413T7 3h10q.825 0 1.413.588T19 5v16l-7-3l-7 3Z">
-            </svg>
-          </a>
-        </button>
-        
-          <a class="myButton--profile" href="profile.html"
-            ><svg
-              role="img"
-              aria-label="Profile Icon"
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              viewBox="0 0 24 24">
-              <path
-                d="m12 23l-3-3H5q-.825 0-1.413-.588T3 18V4q0-.825.588-1.413T5 2h14q.825 0 1.413.588T21 4v14q0 .825-.588 1.413T19 20h-4l-3 3Zm0-11q1.45 0 2.475-1.025T15.5 8.5q0-1.45-1.025-2.475T12 5q-1.45 0-2.475 1.025T8.5 8.5q0 1.45 1.025 2.475T12 12Zm0 8.2l2.2-2.2H19v-1.15q-1.35-1.325-3.138-2.087T12 14q-2.075 0-3.863.763T5 16.85V18h4.8l2.2 2.2Z">
-            </svg>
-          </a>
-        </button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="24px"
+          viewbox="0 0 24 24"
+          width="24px"
+        >
+          <path
+            d="M12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81l5-4.5M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z"
+          />
+        </svg>
+        <a class="myButton--bookmark" href="bookmark.html">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewbox="0 0 24 24"
+            width="24px"
+          >
+            <path
+              d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"
+            />
+          </svg>
+        </a>
+        <a class="myButton--profile" href="profile.html">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewbox="0 0 24 24"
+            width="24px"
+          >
+            <path
+              d="M12 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2m0 9c2.7 0 5.8 1.29 6 2v1H6v-.99c.2-.72 3.3-2.01 6-2.01m0-11C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"
+            />
+          </svg>
+        </a>
       </nav>
     </footer>
   </body>
